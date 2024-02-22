@@ -1,3 +1,4 @@
+
 # Library-Management-System
 
 ## Table of Contents
@@ -5,7 +6,7 @@
 - [File Structure](#file-structure)
 - [Compilation](#compilation)
 - [Running the Program](#running-the-program)
-- [Functionality](#functionality)  <!-- Corrected the typo here -->
+- [Functionality](#functionality)  
 - [Usage](#usage)
 - [Note](#note)
 - [Author](#author)
@@ -25,28 +26,29 @@ To compile the program, use a C++ compiler such as g++:
 
 ```bash
 g++ main.cpp account.cpp -o library_management_system
-Running the Program
+## Running the Program
 After compilation, run the executable:
 
 bash
 Copy code
 ./library_management_system
-Functionality
+## Functionality
 The program provides three main menus:
+1. **Library Menu:** Manage books and students in the library.
+2. **Student Menu:** Manage student information.
+3. **Book Menu:** Manage book information.
 
-Library Menu: Manage books and students in the library.
-Student Menu: Manage student information.
-Book Menu: Manage book information.
 Each menu has various options for performing specific tasks like displaying information, issuing books, returning books, searching, updating, deleting, and adding new entries.
 
-Usage
+## Usage
 Follow the on-screen instructions to navigate through the menus and perform desired actions. The system stores information in the library.txt file and creates an output.txt file for additional storage.
 
-Note
-The program uses dynamic memory allocation for book and student objects.
-Tokens are used to track the number of books issued by students.
-Fine amounts are calculated for late book returns.
-Author
+## Note
+- The program uses dynamic memory allocation for book and student objects.
+- Tokens are used to track the number of books issued by students.
+- Fine amounts are calculated for late book returns.
+
+## Author
 [ANUM KOUSAR]
 
-Note: Customize placeholders like [Your Name] with actual information relevant to your program.
+**Note:** Customize placeholders like [Your Name] with actual information relevant to your program.
