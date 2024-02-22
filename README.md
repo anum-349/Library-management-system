@@ -21,11 +21,10 @@ This is a C++ program for a Library Management System, allowing users to manage 
 - `library.txt`: File to store library information.
 - `output.txt`: File to store output information.
 
-## Compilation
-To compile the program, use a C++ compiler such as g++:
+## Compilationg++ -c main.cpp -o main.o
+g++ -c account.cpp -o account.o
+g++ main.o account.o -o library_management_system
 
-```bash
-g++ main.cpp account.cpp -o library_management_system
 ## Running the Program
 After compilation, run the executable:
 
